@@ -1,0 +1,52 @@
+﻿<Window x:Class="WPF_BUDGET_PLANNER.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_BUDGET_PLANNER"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="439" Width="734">
+    <Grid>
+        <Image HorizontalAlignment="Center" Height="410" Margin="-25,0" VerticalAlignment="Top" Width="778" Source="wp2128226-stock-market-wallpapers.jpg"/>
+        <Label Content="BUDGET PLANNNER" HorizontalAlignment="Left" Margin="253,10,0,0" VerticalAlignment="Top" FontSize="23" Foreground="White" FontStyle="Oblique"/>
+        <Label Content="Gross Salary" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,46,0,0" Foreground="White"/>
+        <TextBox x:Name="txtGrossSalary" HorizontalAlignment="Left" Height="23" Margin="101,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Expenses" HorizontalAlignment="Left" Margin="0,93,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.995,0.039" Foreground="White" FontStyle="Italic" FontSize="20"/>
+        <Label Content="Groceries" HorizontalAlignment="Left" Margin="10,149,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Water and Electricity " HorizontalAlignment="Left" Margin="10,192,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Travel Cost" HorizontalAlignment="Left" Margin="10,248,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.724,0.133" Foreground="White"/>
+        <Label Content="Other" HorizontalAlignment="Left" Margin="10,296,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <TextBox x:Name="txtGroceries" HorizontalAlignment="Left" Height="23" Margin="180,149,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtW_E" HorizontalAlignment="Left" Height="23" Margin="180,195,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtTravelCost" HorizontalAlignment="Left" Height="23" Margin="180,252,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtOther" HorizontalAlignment="Left" Height="23" Margin="180,300,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="---------------------------------------" HorizontalAlignment="Left" Margin="0,118,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label x:Name="lblRent" Content="Rent" HorizontalAlignment="Left" Margin="510,149,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <TextBox x:Name="txtRent" HorizontalAlignment="Left" Height="23" Margin="555,149,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
+        <GroupBox x:Name="txtHMonths" Header="HomeLoan" HorizontalAlignment="Left" Height="210" Margin="510,180,0,0" VerticalAlignment="Top" Width="184" FontSize="15" FontStyle="Italic" Foreground="White">
+            <StackPanel HorizontalAlignment="Left" Height="180" Margin="0,0,-2,0" VerticalAlignment="Top" Width="174">
+                <Label Content="Purchase Price" Foreground="White" FontSize="11" FontStyle="Normal"/>
+                <TextBox x:Name="txtHPurchasePrice" Height="19" TextWrapping="Wrap" Text="0" FontSize="11" Margin="0,0,-0.6,0"/>
+                <Label Content="Deposit" Foreground="White" FontSize="11" FontStyle="Normal"/>
+                <TextBox x:Name="txtHDeposit" Height="19" TextWrapping="Wrap" Text="0" FontSize="11" Margin="0,0,-0.6,0"/>
+                <Label Content="Interest" Foreground="White" FontSize="11" FontStyle="Normal"/>
+                <TextBox x:Name="txtHInterest" Height="19" TextWrapping="Wrap" Text="0" FontSize="11" Margin="0,0,-0.6,0" FontStyle="Normal"/>
+                <Label Content="Number of Months" Foreground="White" FontSize="11" FontStyle="Normal"/>
+                <TextBox x:Name="TxtHMonths" Height="19" TextWrapping="Wrap" Text="0" FontSize="11" FontStyle="Normal"/>
+            </StackPanel>
+        </GroupBox>
+        <Button x:Name="btnAdd" Content="Save Info " HorizontalAlignment="Left" Margin="239,380,0,0" VerticalAlignment="Top" Width="75" FontStyle="Italic" FontWeight="Bold" Click="Button_Click"/>
+        <Label Content="PhoneBill" HorizontalAlignment="Left" Margin="10,344,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <TextBox x:Name="txtPhoneBill" HorizontalAlignment="Left" Height="23" Margin="180,347,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnShowVehiclePage" Content="Show Vehicle Page" HorizontalAlignment="Left" Margin="11,380,0,0" VerticalAlignment="Top" Width="106" Click="btnShowVehiclePage_Click"/>
+        <Button x:Name="btnShowResult" Content="Display" HorizontalAlignment="Left" Margin="378,380,0,0" VerticalAlignment="Top" Width="75" Click="btnShowResult_Click"/>
+        <RadioButton x:Name="rdbRent" Content="Rent " HorizontalAlignment="Left" Margin="548,78,0,0" VerticalAlignment="Top" Foreground="White" Checked="rdbRent_Checked" Unchecked="rdbRent_Unchecked"/>
+        <RadioButton x:Name="rdbPH" Content="Purchase House " HorizontalAlignment="Left" Margin="548,98,0,0" VerticalAlignment="Top" Foreground="White" Checked="rdbPH_Checked" Unchecked="rdbPH_Unchecked"/>
+        <Label Content="Living Options" HorizontalAlignment="Left" Margin="555,47,0,0" VerticalAlignment="Top" Foreground="White"/>
+
+
+
+
+
+    </Grid>
+</Window>

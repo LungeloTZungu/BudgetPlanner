@@ -1,0 +1,27 @@
+﻿<Window x:Class="WPF_BUDGET_PLANNER.Savings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_BUDGET_PLANNER"
+        mc:Ignorable="d"
+        Title="Savings" Height="500" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,0,-0.4,0" TextWrapping="Wrap" Text="                                 How much do you want to save " VerticalAlignment="Top" Height="65" Width="794" Background="Yellow" FontSize="23" FontWeight="Bold"/>
+        <Label Content="How much do you want to save ??" HorizontalAlignment="Left" Margin="10,104,0,0" VerticalAlignment="Top" FontSize="15" FontWeight="Bold"/>
+        <TextBox x:Name="txtA" HorizontalAlignment="Left" Height="23" Margin="18,139,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="What is the rate  ??" HorizontalAlignment="Left" Margin="10,201,0,0" VerticalAlignment="Top" FontSize="15" FontWeight="Bold"/>
+        <TextBox x:Name="txtN" HorizontalAlignment="Left" Height="23" Margin="18,336,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtR" HorizontalAlignment="Left" Height="23" Margin="18,239,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="How often does interest get added ie: yearly = 12 , half-yearly = 6 and quarterly = 4  please put in the number " HorizontalAlignment="Left" Margin="18,294,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Over how many years would you like to save for " HorizontalAlignment="Left" Margin="18,390,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.115,0.855" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="txtT" HorizontalAlignment="Left" Height="23" Margin="18,433,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnSaveValues" Content="Save" HorizontalAlignment="Left" Margin="707,437,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="btnSaveValues_Click"/>
+        <Button x:Name="btnGoback" Content="Go Back" HorizontalAlignment="Left" Margin="575,437,0,0" VerticalAlignment="Top" Width="75" Click="btnGoback_Click"/>
+        <RadioButton x:Name="rdbCmpInt" Content="Compund Interest " HorizontalAlignment="Left" Margin="526,147,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <RadioButton x:Name="rdbSmpInt" Content="Simple Interset" HorizontalAlignment="Left" Margin="526,189,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Interest Option" HorizontalAlignment="Left" Margin="546,104,0,0" VerticalAlignment="Top" FontSize="15" FontWeight="Bold"/>
+
+    </Grid>
+
+</Window>

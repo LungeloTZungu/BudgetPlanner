@@ -1,0 +1,21 @@
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\bin\Debug\WPF BUDGET PLANNER.exe.config
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\bin\Debug\WPF BUDGET PLANNER.exe
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\bin\Debug\WPF BUDGET PLANNER.pdb
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\obj\Debug\WPF BUDGET PLANNER.csprojAssemblyReference.cache
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\obj\Debug\MainWindow.g.cs
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\obj\Debug\App.g.cs
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\obj\Debug\WPF BUDGET PLANNER_MarkupCompile.cache
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\obj\Debug\WPF BUDGET PLANNER_MarkupCompile.lref
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\obj\Debug\MainWindow.baml
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\obj\Debug\WPF BUDGET PLANNER.g.resources
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\obj\Debug\WPF_BUDGET_PLANNER.Properties.Resources.resources
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\obj\Debug\WPF BUDGET PLANNER.csproj.GenerateResource.cache
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\obj\Debug\WPF BUDGET PLANNER.csproj.CoreCompileInputs.cache
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\obj\Debug\WPF BUDGET PLANNER.exe
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\obj\Debug\WPF BUDGET PLANNER.pdb
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\obj\Debug\DisplayScreen.g.cs
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\obj\Debug\DisplayScreen.baml
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\obj\Debug\VehicleDetails.g.cs
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\obj\Debug\VehicleDetails.baml
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\obj\Debug\Savings.g.cs
+C:\Users\Lungelo\source\repos\WPF BUDGET PLANNER\obj\Debug\Savings.baml
